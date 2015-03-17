@@ -1,0 +1,10 @@
+depends:
+    - test-runner
+    - timestamp:
+        fork: Stapelzeiger
+
+source:
+    - odometry.c
+
+tests:
+    - tests/odometry_test.cpp
